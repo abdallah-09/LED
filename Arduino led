@@ -1,25 +1,25 @@
 #include <LiquidCrystal.h>
 
-const int led1=11;
-const int led2=12;
-const int led3=13;
+const int led1=11; // create variable
+const int led2=12; // create variable
+const int led3=13; // create variable
 const int lamp;
-void setup() {
+void setup() {  //define the orders
   pinMode(led1,OUTPUT);
   pinMode(lamp,OUTPUT);
 }
 
-void loop() {
-digitalWrite(led1,HIGH);
-delay(300);
-digitalWrite(led1,LOW);
-delay(300);
-digitalWrite(led2,HIGH);
-delay(200);
-digitalWrite(led2,LOW);
-delay(200);
-digitalWrite(led3,HIGH);
-delay(100);
-digitalWrite(led3,LOW);
-delay(100);
+void loop() { // main  loop
+digitalWrite(led1,HIGH);//OUTPUT
+delay(300); //duration
+digitalWrite(led1,LOW);//OUTPUT
+delay(300); //duration
+digitalWrite(led2,HIGH);//OUTPUT
+delay(200); //duration
+digitalWrite(led2,LOW);//OUTPUT
+delay(200); //duration
+digitalWrite(led3,HIGH);//OUTPUT
+delay(100); //duration
+digitalWrite(led3,LOW);//OUTPUT
+delay(100); //duration
 }
